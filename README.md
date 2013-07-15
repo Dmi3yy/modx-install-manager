@@ -1,4 +1,5 @@
 Модуль для установки елементов в MODX EVO
+обсуждение : http://modx.im/blog/develop/1065.html
 
 1. Создаем новый модуль Install с кодом: 
 $modulePath = $modx->config['base_path'].'assets/modules/install-manager/';
