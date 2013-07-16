@@ -12,6 +12,10 @@ include_once($modulePath . "index.php");
 - ошибка underfined иногда появляется пока не решил багу + не работает установка демо контента по той же причине
 - нужно пойтись в файлике instprocessor.php  выпилить все что касается sqlParser оно там не надо у нас подключение к базе и так есть 
 
+-Only variables should be passed by reference
+-in_array() expects parameter 2 to be array, boolean given
+-mysql_query() expects parameter 2 to be resource, null given
+
 доработки: 
 - добавить проверку что б не перезаписывало файлы а как минимум делало бекап старыхъ
 
