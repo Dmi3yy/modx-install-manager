@@ -2,8 +2,7 @@
 обсуждение : http://modx.im/blog/develop/1065.html
 
 1. Создаем новый модуль Install с кодом: 
-$modulePath = $modx->config['base_path'].'assets/modules/install-manager/';
-include_once($modulePath . "index.php");
+include_once('../assets/modules/install-manager/index.php');
 
 2. записываем папку install-manager в assets/module
 
