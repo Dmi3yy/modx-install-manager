@@ -53,7 +53,7 @@ ob_start();
 echo '<!DOCTYPE html>
 <html><head><title>Install</title>
 <meta http-equiv="Content-Type" content="text/html; charset="utf-8" />
-<link rel="stylesheet" href="/assets/modules/install/style.css" type="text/css" media="screen" /></head>
+<link rel="stylesheet" href="/assets/modules/install-manager/style.css" type="text/css" media="screen" /></head>
 <body><div id="contentarea"><div class="container_12"><br>';
 
 if (!@include ('action.' . $action . '.php')) {
